@@ -1,0 +1,1043 @@
+/* Mobile Devices */
+@media (min-width: 440px) {
+  .navbar {
+    /* border: solid green; */
+    height: 6vh;
+    background-color: black;
+  }
+  .imgcontainer {
+    /* border: solid black; */
+    height: 89vh;
+  }
+  .main_display {
+    background-repeat: no-repeat;
+    background-size: 800px;
+    /* border: solid red; */
+    height: 60vh;
+  }
+  .logopics {
+    border: solid transparent;
+    height: 100%;
+    width: 100%;
+  }
+  .mainlogoimg {
+    height: 60%;
+    margin-top: 20%;
+  }
+  .mainlogo {
+    /* border: solid blue; */
+    height: 40%;
+    width: 60%;
+    display: flex;
+    margin-top: 50%;
+    margin-left: 27%;
+  }
+
+  .main1 {
+    /* border: solid black; */
+    background-color: black;
+    height: 40vh;
+    color: white;
+    margin-top: -21%;
+  }
+  h1 {
+    text-align: center;
+  }
+  .text-desc {
+    margin-left: 20px;
+  }
+  .button_container {
+    display: block;
+    margin: 2em;
+    height: 22vh;
+  }
+  .thriller {
+    border: solid white;
+    height: 6vh;
+    width: 80%;
+    margin: 40px;
+    margin-top: 10%;
+  }
+  .buynow {
+    border: solid white;
+    height: 6vh;
+    width: 80%;
+    margin: 40px;
+  }
+  .btn1 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  .btn1:hover {
+    background-color: white;
+    color: black;
+    transition: 2s;
+  }
+  .main2 {
+    display: none;
+  }
+  /*                             Los Santos                  */
+  .lossantos {
+    /* border: solid red; */
+    height: 120vh;
+    margin: 0;
+    margin-top: 54%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 330%;
+  }
+  .chacimg {
+    /* border: solid green; */
+    height: 50vh;
+    margin: 18px;
+    margin-top: 15%;
+    width: 100%;
+  }
+  .gta5logo {
+    /* border: solid blue; */
+    width: 40%;
+    height: 30%;
+    margin-left: 30%;
+  }
+  .wlosantos {
+    font-size: 40px;
+    margin-top: 50px;
+    color: white;
+  }
+  .story {
+    margin: 17px;
+    color: white;
+  }
+  /*                       ONLINE GAMING                      */
+  .online {
+    background-repeat: no-repeat;
+    background-size: 1px;
+    height: 120vh;
+  }
+  .onlinedesc {
+    margin-top: 50px;
+  }
+  .gtaonlineimg {
+    height: 50vh;
+    margin: 18px;
+    margin-top: 15%;
+    width: 100%;
+  }
+  .logo_container {
+    /* border:solid white; */
+    margin-top: -50%;
+  }
+  .onlinelogo {
+    width: 25%;
+    height: 15%;
+    margin-left: 30%;
+  }
+  .online_story {
+    margin: 17px;
+  }
+  /*                 Exclusive New Content               */
+  .excontent {
+    /* border: solid rgb(155, 140, 240); */
+    height: 55vh;
+  }
+  .carpose {
+    /* border: solid red; */
+    height: 55vh;
+  }
+  .img_container1 {
+    /* border: solid blue; */
+    height: 30vh;
+    margin: 20px;
+  }
+  .carposeimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .story2 {
+    margin: 17px;
+  }
+  /*                      NEW MENU DESIGN                                 */
+
+  .menucontainer {
+    height: 30vh;
+    margin: 20px;
+  }
+  .menuimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  .story4 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  /*                          STUNNING   VISUALS                  */
+  .visuals {
+    /* border: solid white; */
+    height: 55vh;
+  }
+  .visuals_container {
+    /* border: solid green; */
+    height: 30vh;
+    margin: 20px;
+  }
+  .visualsimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .story5 {
+    margin: 17px;
+  }
+  /*                                     FASTER LOADING                                    */
+  .fasterloading {
+    /* border: solid white; */
+    height: 55vh;
+  }
+  .fl_container {
+    /* border: solid green; */
+    height: 30vh;
+    margin: 20px;
+  }
+  .flimage {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .story6 {
+    margin: 17px;
+  }
+  /*                                      IMMERSIVE CONTROLS                                           */
+  .controls {
+    /* border: solid white; */
+    height: 55vh;
+  }
+  .crt_container {
+    /* border: solid green; */
+    height: 30vh;
+    margin: 20px;
+  }
+  .crtimage {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .story7 {
+    margin: 17px;
+  }
+  /*                                 3D Audio                       */
+  .audio {
+    /* border: solid white; */
+    height: 58vh;
+  }
+  .audio_container {
+    /* border: solid green; */
+    height: 30vh;
+    margin: 20px;
+  }
+  .audioimage {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .story8 {
+    margin: 17px;
+  }
+  /*                        UPGRADE INFO                     */
+  .upgtext {
+    border: 1px solid gray;
+    height: auto;
+    padding: 30px;
+    margin: 5%;
+    margin-top: 10%;
+    background-color: black;
+    border-radius: 10px;
+  }
+  /*      PG BOX      */
+  .pg_container {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 17vh;
+    display: flex;
+    margin: 15%;
+    width: 50%;
+    padding: 20px;
+    background-color: black;
+  }
+  .imgbox {
+    /* border:solid  white; */
+    width: 34%;
+  }
+  .plaintxt {
+    /* border: solid white; */
+    width: 70%;
+    font-size: 8px;
+    margin-left: 3px;
+  }
+  .pgimage {
+    width: 100%;
+    height: 100%;
+  }
+  /*                              FOOTER                    */
+  .subscribe {
+    /* border: solid green; */
+    height: 55vh;
+    background: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/5f03a32950ac6fdcb71318e6c8b58c26.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+  .rockstar {
+    /* border: solid white; */
+    height: 6vh;
+    margin-top: 50%;
+    margin-left: 20px;
+    width: 11%;
+  }
+  .rockstarimg {
+    width: 90%;
+    height: 90%;
+  }
+  .substxt {
+    margin-top: 10%;
+    margin-left: 7%;
+  }
+  .story9 {
+    margin: 17px;
+  }
+  .Sub {
+    border: 1px none grey;
+    height: 6vh;
+    width: 80%;
+    margin: 40px;
+    margin-top: 10%;
+    border-radius: 10px;
+  }
+  .btn4 {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    border: solid grey;
+    border-radius: 10px;
+  }
+
+  .btn4:hover {
+    background-color: rgba(56, 52, 52, 0.637);
+    color: white;
+    transition: 1.5s;
+  }
+
+  .c_service {
+    /* border: solid white; */
+    height: 18vh;
+    margin-top: 30px;
+    display: flex;
+  }
+  .details {
+    /* border: solid white; */
+    height: 18vh;
+    width: 50%;
+    margin-left: 20px;
+  }
+  .language {
+    /* border: solid white; */
+    height: 18vh;
+    width: 50%;
+    display: flex;
+  }
+  .globe,
+  .arrow {
+    /* border: solid red; */
+    width: 15%;
+  }
+  .iconimg {
+    width: 100%;
+  }
+  .effect:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+  .icons {
+    /* border: solid blue; */
+    height: 10vh;
+    margin-top: 15%;
+    display: flex;
+    margin-left: 20px;
+  }
+  .icon_container {
+    /* border: solid red; */
+    height: 3vh;
+    margin: 10px;
+  }
+  .icon_img {
+    width: 100%;
+    height: 100%;
+  }
+  .terms {
+    /* border: solid red; */
+    height: 20vh;
+    margin: 2%;
+  }
+  .txt_terms {
+    margin: 10px;
+    font-size: 12px;
+    color: grey;
+  }
+  .txt_terms:hover {
+    color: yellow;
+  }
+
+  .lastfooter {
+    /* border: solid white; */
+    height: 15vh;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    word-spacing: 12px;
+  }
+  .text-desc {
+    margin: 20px;
+  }
+}
+
+/*                        LOW RESOLUTION TABLETS IPADS                   */
+@media (min-width: 767px) {
+  .navbar {
+    background-color: black;
+    background-position: center;
+  }
+  .imgcontainer {
+    height: 87vh;
+  }
+  .main_display {
+    background-size: 1020px;
+    height: 70vh;
+  }
+  .mainlogo {
+    margin-top: 20%;
+  }
+  .mainlogoimg {
+    height: 12vh;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  .text-desc {
+    text-align: center;
+  }
+  .button_container {
+    display: flex;
+    justify-content: center;
+    height: 9vh;
+  }
+  .thriller {
+    width: 30%;
+    height: 7vh;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+  .buynow {
+    width: 30%;
+    height: 7vh;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin: 1px;
+  }
+  .main1 {
+    height: 25vh;
+  }
+  .main2 {
+    display: none;
+  }
+  /*                      Los Santos              */
+  .lossantos {
+    margin-top: 3%;
+    height: 163vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 330%;
+  }
+  .chacimg {
+    /* border: solid green; */
+    height: 80vh;
+    margin: 18px;
+    margin-top: 20%;
+    width: 100%;
+  }
+  .gta5logo {
+    /* border: solid blue; */
+    width: 20%;
+    height: 15%;
+    margin-left: 30%;
+  }
+  .story {
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 30px;
+  }
+  /*                                              GAME ONLINE                                              */
+  .online {
+    height: 160vh;
+  }
+
+  .logo_container {
+    margin-top: 6%;
+  }
+  .gtaonlineimg {
+    height: 80vh;
+    margin: 18px;
+    margin-top: 15%;
+    width: 100%;
+  }
+  .online_story {
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 26px;
+  }
+
+  /*                             EXCLUSIVE NEW CONTENT                             */
+  .img_container1 {
+    /* border: solid blue; */
+    height: 50vh;
+    margin: 50px;
+  }
+  .excontent {
+    height: 80vh;
+  }
+  .carpose {
+    height: 80vh;
+  }
+  .story2 {
+    margin: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  /*                         NEW MENU DESIGN                      */
+  .menucontainer {
+    height: 40vh;
+    margin: 20px;
+  }
+  .story4 {
+    margin: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  /*                          STUNNING VISUALS                         */
+  .visuals {
+    height: 90vh;
+  }
+  .visuals_container {
+    /* border: solid green; */
+    height: 60vh;
+    margin: 40px;
+  }
+  .visualsimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .vs_txt {
+    text-align: start;
+    margin-left: 10%;
+  }
+  .story5 {
+    margin: 60px;
+  }
+  /*                           FASTER LOADING                          */
+  .fasterloading {
+    height: 63vh;
+  }
+  .fl_container {
+    height: 42vh;
+    margin: 30px;
+  }
+  .fl_header {
+    text-align: start;
+    margin-left: 30px;
+  }
+  .story6 {
+    margin-right: 22%;
+  }
+  /*                     IMMERSIVE CONTROLS                        */
+  .controls {
+    /* border: solid white; */
+    height: 75vh;
+  }
+  .crt_container {
+    /* border: solid green; */
+    height: 50vh;
+    margin: 30px;
+  }
+  .imc_header {
+    text-align: start;
+    margin-left: 10%;
+  }
+  .story7 {
+    margin-right: 25%;
+    margin-left: 10%;
+  }
+  /*                                 3D Audio                       */
+  .audio {
+    height: 80vh;
+  }
+  .audio_container {
+    height: 50vh;
+  }
+  .audio_hd {
+    text-align: start;
+    margin-left: 10%;
+  }
+  .story8 {
+    margin-right: 25%;
+    margin-left: 10%;
+  }
+  /*              UPGRADE INFO          */
+  .upgtext {
+    padding: 40px;
+    font-size: 20px;
+  }
+  /*        PG BOX     */
+  .pg_container {
+    width: 37%;
+  }
+  /*                              FOOTER                       */
+  .rockstar {
+    margin-left: 35%;
+  }
+  .substxt {
+    text-align: center;
+  }
+  .story9 {
+    margin-left: 16%;
+    margin-right: 5%;
+  }
+  .btn4 {
+    width: 45%;
+    margin-left: 35%;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  .language {
+    margin-left: 25%;
+  }
+  .globe,
+  .arrow {
+    /* border: solid red; */
+    width: 10%;
+  }
+  .icons {
+    margin-top: 00%;
+    gap: 20px;
+  }
+}
+
+/*                          TABLETS PORTRAIT MODE                  */
+@media (min-width: 1024px) {
+  .navbar {
+    background-color: black;
+  }
+  .imgcontainer {
+    height: 55vh;
+  }
+  .main_display {
+    background-size: 1330px;
+    height: 58vh;
+    background-position: center;
+  }
+  .mainlogo {
+    margin-top: 1%;
+    width: 25%;
+    margin-left: 5%;
+  }
+  .mainlogoimg {
+    height: 60%;
+  }
+  .main2 {
+    /* border: solid blue; */
+    height: 20vh;
+  }
+  .main2 {
+    display: block;
+    /* border: solid blue; */
+    height: 30vh;
+    width: 40%;
+    margin: 20px;
+  }
+  .main2_head {
+    color: white;
+    text-align: start;
+  }
+  .text-desc2 {
+    color: white;
+  }
+  .button_container2 {
+    display: flex;
+    /* border: solid red; */
+    justify-content: center;
+    height: 9vh;
+  }
+  .thriller2 {
+    width: 45%;
+    height: 7vh;
+    border-radius: 13px;
+    border: solid white;
+    margin: 5px;
+  }
+  .buynow2 {
+    width: 45%;
+    height: 7vh;
+    border-radius: 13px;
+    margin: 1px;
+    border: solid white;
+  }
+  .btn2 {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+
+  .btn2:hover {
+    background-color: white;
+    color: black;
+    transition: 2s;
+  }
+  .main1 {
+    display: none;
+  }
+  .mainlogo {
+    margin-left: 2%;
+  }
+  /*                           Los  Santos                     */
+  .lossantos {
+    margin-top: 0%;
+    height: 180vh;
+  }
+  .chacimg {
+    height: 90vh;
+    width: 80%;
+  }
+  .gta5logo {
+    /* border: solid blue; */
+    width: 10%;
+    height: 20%;
+    margin-left: 20%;
+  }
+  .wlosantos {
+    font-size: 50px;
+    margin-top: 50px;
+    color: white;
+    text-align: start;
+    margin-left: 20%;
+  }
+  .story {
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 30px;
+  }
+  /*                    GAME    ONLINE                      */
+  .logo_container {
+    margin-top: 40%;
+  }
+  .onlinelogo {
+    width: 10%;
+    height: 15%;
+    margin-left: 20%;
+  }
+  .onlinedesc {
+    font-size: 50px;
+    margin-top: 50px;
+    color: white;
+    text-align: start;
+    margin-left: 20%;
+  }
+  .online_story {
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 30px;
+  }
+
+  /*                                         EXCLUSIVE NEW CONTENT                                */
+  .carpose {
+    display: flex;
+    height: 60vh;
+  }
+  .img_container1 {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .posetxt {
+    /* border: solid red; */
+    height: 20vh;
+    margin-top: 20vh;
+  }
+  .story2 {
+    margin: 40px;
+    margin-right: 11%;
+    margin-left: 11%;
+  }
+  .excontent {
+    height: 60vh;
+  }
+  /*            NEW   MENU DESIGN                       */
+  .menucontainer {
+    height: 60vh;
+    margin: 60px;
+  }
+  .nm_head {
+    text-align: start;
+    margin-left: 10%;
+    font-size: 50px;
+  }
+  .story4 {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 30%;
+  }
+  /*                           FASTER LOADING                          */
+  .fasterloading {
+    height: 87vh;
+  }
+  .fl_container {
+    height: 60vh;
+    margin: 40px;
+  }
+  .fl_header {
+    margin-left: 16%;
+    font-size: 50px;
+  }
+  .story6 {
+    margin-left: 17%;
+    margin-right: 17%;
+    font-size: 21px;
+  }
+  /*                           3D Audio                        */
+  .audio_container {
+    height: 60vh;
+  }
+  /*       UPGRADE INFO        */
+  .upgtext {
+    padding: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+  /*           PG BOX        */
+  .pg_container {
+    width: 25%;
+    margin-left: 30%;
+  }
+  /*                             FOOTER                           */
+
+  .rockstar {
+    margin-left: 40%;
+    margin-top: 5%;
+  }
+  .substxt {
+    font-size: 25px;
+  }
+  .story9 {
+    margin-right: 20%;
+    margin-left: 26%;
+    font-size: 14px;
+  }
+  .btn4 {
+    width: 30%;
+    margin-left: 45%;
+  }
+}
+
+/*                                     DESKTOPS                                       */
+@media (min-width: 1280px) {
+  .navbar {
+    background-color: black;
+  }
+  .imgcontainer {
+    height: 58vh;
+  }
+  .main_display {
+    background-size: cover;
+    background-position: center;
+  }
+  /*                         Los  Santos                   */
+  .lossantos {
+    display: flex;
+    background-size: 200%;
+    height: 90vh;
+  }
+  .chacimg {
+    height: 70%;
+    width: 100%;
+  }
+  .chac_container {
+    width: 80%;
+  }
+  .logo_text {
+    width: 80%;
+  }
+  .gta5logo {
+    margin-top: 20%;
+    height: 10%;
+  }
+  /*                      GAME ONLINE                */
+  .online {
+    display: flex;
+    height: 100vh;
+  }
+  .img_txt {
+    /* border: solid red; */
+    width: 80%;
+  }
+  .gtaonlineimg {
+    width: 100%;
+  }
+  /*             STUNNING VISUALS            */
+  .visuals {
+    display: flex;
+    height: 60vh;
+  }
+  .visuals_container {
+    width: 100%;
+    height: 75%;
+    margin-top: 7%;
+  }
+  .v_txt {
+    margin-top: 13%;
+  }
+  /*              FASTER LOADING                  */
+  .fl_container {
+    margin: 50px;
+  }
+  /*                     IMMERSIVE CONTROLS                        */
+  .controls {
+    display: flex;
+    height: 70vh;
+  }
+  .crt_container {
+    width: 90%;
+    height: 55%;
+    margin-top: 10%;
+  }
+  .imc_txt {
+    margin-top: 15%;
+  }
+  /*       UPGRADE INFO        */
+  .upgtext {
+    width: 70%;
+    margin-left: 15%;
+  }
+  /*        PG BOX     */
+  .pg_container {
+    width: 18%;
+    margin-left: 40%;
+  }
+  /*                   FOOTER               */
+  .language {
+    margin-left: 45%;
+  }
+  .arrow {
+    /* border: solid red; */
+    width: 8%;
+  }
+}
+
+/* Larger Screens  */
+@media (min-width: 1880px) {
+  .navbar {
+    background-color: black;
+  }
+  .imgcontainer {
+    height: 60vh;
+    
+  }
+  .online {
+    height: 110vh;
+  }
+  .onlinelogo {
+    margin-top: -50%;
+  }
+  .gtaonlineimg {
+    width: 80%;
+  }
+  .online_story {
+    margin-top: -10%;
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 30px;
+    margin-top: -1%;
+  }
+  .onlinedesc {
+    margin-top: -10%;
+  }
+
+  .language {
+    margin-left: 45%;
+    width: 10%;
+  }
+}
+
+/*                      GENRAL                */
+body {
+  color: white;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(19, 18, 18, 0.964);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.supercontainer {
+  /* border: solid red; */
+  height: 800vh;
+}
+.navbar-nav .nav-link {
+  color: white;
+}
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+.main_display {
+  background-image: url(https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/3871/07edb091bb329145ee3f3f01476adb40acc6457b.jpg);
+}
+
+.newcontainer {
+  /* border: solid black; */
+  height: 30vh;
+  width: 40%;
+}
+.lossantos {
+  background: url(https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/911bff9fca5209b94dd22bcba795eefdd4b71993.jpg);
+  background-repeat: no-repeat;
+}
+
+.logo_txt {
+  border: solid yellow;
+}
+.online {
+  /* border: solid green; */
+
+  background: url(https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/047b024f60c6b19ed5a5b785e6e9416c97a99614.jpg);
+}
+.footer {
+  /* border: solid white; */
+  height: 140vh;
+  margin-top: 20%;
+  background-color: black;
+}
+.subscribe {
+  /* border: solid green; */
+  height: 55vh;
+  background: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/5f03a32950ac6fdcb71318e6c8b58c26.png);
+  background-repeat: round;
+  background-position: center;
+}
